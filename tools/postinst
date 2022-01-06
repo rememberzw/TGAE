@@ -1,0 +1,17 @@
+#!/bin/sh
+set -e
+
+. /usr/share/debconf/confmodule
+db_version 2.0
+
+action="$1"
+oldversion="$2"
+
+umask 022
+
+#deb-systemd-helper enable 'tgae.service' >/dev/null || true
+systemctl enable tgae.service
+systemctl daemon-reload
+systemctl start tgae.service
+
+exit 0

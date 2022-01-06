@@ -1,0 +1,21 @@
+[Unit]
+Description=TGAE
+After=network.target
+
+[Service]
+User=root
+Group=root
+
+#change this to your workspace
+WorkingDirectory=/opt/somf/tgae
+
+#path to executable. 
+#executable is a bash script which calls jar file
+ExecStart=/opt/somf/python-somf/bin/python3 /opt/somf/tgae/tgae.pyc
+
+LimitNOFILE=100000
+LimitNPROC=100000
+Restart=no
+
+[Install]
+WantedBy=multi-user.target

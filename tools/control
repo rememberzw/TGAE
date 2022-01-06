@@ -1,0 +1,14 @@
+Package: tgae
+Source: somf
+Version: 2.0.1-20200104
+Architecture: all
+Maintainer: somf Developers
+Installed-Size:
+Depends:
+Suggests:
+Conflicts:
+Provides: somf-tgae
+Section: somf-service
+Priority: optional
+Homepage: 
+Description: TGAE (Terminal Gateway Audit Engine).
