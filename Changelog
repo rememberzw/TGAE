@@ -1,0 +1,26 @@
+0.0.1   2019-02-20    TGAE init.
+	    2019-02-26    Add command policy modle.
+	    2019-02-27    Add handle input and tool.
+	    2019-03-05    Debug and fix some bugs.
+	    2019-03-18    Add noaccount_ for telnet.
+	    2019-03-25    Exit directly if nxhop exist.
+
+1.0.0   2019-03-26    Make deb.
+	                  Debug and fix some bugs.
+	    2019-03-27    Update Makefile.
+	                  Set envrion and term_type for SSH_Client.
+	    2019-03-28    Debug and fix some bugs.
+	    2019-04-19    Change zkwl to wolf.
+	    2019-06-11    Change init kafka process.
+	    2019-06-13    Fix a bug: tgae.service targe -> target.
+
+1.0.1   2019-06-26    Add channel_request mode.
+	    2019-07-18    Add Custom input account/passwd mode.
+	    2019-07-22    Add Warn and Support multi kafka ip.
+
+2.0.1   2019-10-24    Suport Elasticsearch.
+	    2019-11-13    Change requests get to post.
+	    2019-12-30    Add level/policy to cmdlist.
+	    2020-01-04    Modify sterm endtime.
+	                  Modify sterm/term/warn to stermYYYYMM/termYYYYMM/warnYYYYMM.
+	    2020-01-08    Modify Channel_Rquest url base64.
